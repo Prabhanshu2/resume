@@ -34,6 +34,13 @@ body{
     justify-content: space-around;
     align-items: center;
     z-index: 100;
+    transition: .3s;
+}
+.header.sticky{
+    opacity: .5;
+}
+.header.sticky:hover{
+    opacity: 1;
 }
 .logo{
     font-size: 2.5rem;
@@ -47,10 +54,8 @@ body{
     margin-left: 3.5rem;
     transition: .3s;
 }
-.navbar a:hover,
-.navbar a.active{
+.navbar a:hover{
     color: var(--main-color);
-    
 }
 
 #menubar{
@@ -95,7 +100,7 @@ section{
     align-items: center;
     background: url('five.png') no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size:cover;
     /* background: url('one.png') no-repeat;
     background-position: right; */
     /* justify-content: center; */
@@ -203,6 +208,7 @@ height: 5rem;
     width: 39%;
     height: 100%;
     background: transparent;
+    background-size: auto;
     /* border: 2px solid red; */
     transition: 1s;
     /* background: url('three.png') no-repeat; */
@@ -326,6 +332,7 @@ height: 5rem;
     margin: 4rem;
     padding: 3rem;
     transition: .3s;
+    min-width: 15vh;
 }
 .skill-image{
     align-items: center;
@@ -401,6 +408,7 @@ height: 5rem;
     margin-right: 1.2rem;
     border-radius: 2rem;
     transition: .6s;
+    min-width: 20vh;
 }
 .project-content a:hover{
     transform: scale(.9);
@@ -534,4 +542,42 @@ form button{
     width: 150px;
     margin: 20px auto 0;
     border-radius: 30px;
+}
+form button:hover{
+    box-shadow:0 0 20px red;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 9%;
+    background:var(--second-bg-color);
+}
+.footer-text p{
+    font-size: 1.6rem;
+}
+.footer-icon a{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: .8rem;
+    background: var(--main-color);
+    border: .2rem solid var(--main-color);
+    border-radius: 50%;
+    transition: .3s;
+    color: var(--bg-color);
+}
+.footer-icon a i{
+    font-size: 2.4rem;
+    text-decoration: none;
+    
+}
+.footer-icon a:hover{
+    color: white;
+    background: linear-gradient(109.8deg, rgb(250, 111, 152) 5.6%, rgb(255, 189, 55) 91.5%);
+    box-shadow: 0 0 20px #ff5361;
+    border: .2rem solid #ff5361;
 }
