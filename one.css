@@ -302,7 +302,12 @@ height: 5rem;
 }
 .skills{
     /* min-height: auto; */
-    margin-bottom: 7rem;
+    /* margin-bottom: 7rem; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
 }
 .skills .skill-content{
     display: flex;
@@ -390,6 +395,11 @@ height: 5rem;
     /* min-height: auto; */
     padding-bottom: 7rem;
     background: var(--second-bg-color);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
 }
 .project-content{
     display: flex;
@@ -487,6 +497,11 @@ height: 5rem;
 .contact{
     /* min-height: auto; */
     padding-bottom: 7rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
 }
 
 form{
@@ -503,8 +518,8 @@ form{
     border-top: 1rem solid aquamarine;
     padding-bottom: 4rem;
     margin: 0 auto;
-    max-width: 50rem;
-    max-height: 55rem;
+    max-width: 65rem;
+    max-height: 63rem;
 }
 form h3{
     color:#fff;
