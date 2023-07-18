@@ -37,19 +37,19 @@ body{
     transition: .3s;
 }
 .header.sticky{
-    /* opacity: .5; */
+    opacity: .8;
     background: lightcoral;
 }
 .header.sticky:hover{
     opacity: 1;
 }
 .logo{
-    font-size: 2.5vmax;
+    font-size: 2.2vmax;
     color: var(--text-color);
     font-weight: 600;
 }
 .navbar a{
-    font-size: 2vmax;
+    font-size: 1.6vmax;
     color: var(--text-color);
     font-weight: 500;
     margin-left: 3.5rem;
@@ -173,13 +173,13 @@ height: 5rem;
     position: relative;
     justify-content: center;
     align-items: center;
-    width: 40px;
-    height: 40px;
+    width: 4vmax;
+    height: 4vmax;
     /* background:var(--main-color); */
     color: silver;
     border: .2rem solid ;
     border-radius: 50%;
-    font-size: 20px;
+    font-size: 2vmax;
     z-index: 1;
     overflow: hidden;
     transition: .2s;
@@ -577,7 +577,7 @@ form button:hover{
     background:var(--second-bg-color);
 }
 .footer-text p{
-    font-size: 1.6rem;
+    font-size: 1.5vmax;
 }
 .footer-icon a{
     position: relative;
@@ -592,7 +592,7 @@ form button:hover{
     color: var(--bg-color);
 }
 .footer-icon a i{
-    font-size: 2.4rem;
+    font-size: 1.3vmax;
     text-decoration: none;
     
 }
