@@ -37,18 +37,19 @@ body{
     transition: .3s;
 }
 .header.sticky{
-    opacity: .5;
+    /* opacity: .5; */
+    background: lightcoral;
 }
 .header.sticky:hover{
     opacity: 1;
 }
 .logo{
-    font-size: 2.5rem;
+    font-size: 2.5vmax;
     color: var(--text-color);
     font-weight: 600;
 }
 .navbar a{
-    font-size: 1.7rem;
+    font-size: 2vmax;
     color: var(--text-color);
     font-weight: 500;
     margin-left: 3.5rem;
@@ -355,14 +356,14 @@ height: 5rem;
     transition: .5s;
 }
 .skill-image img{
-    height: 4rem;
-    width: 4rem;
+    height: 5vmax;
+    width: 5vmax;
     display: flex;
 }
 .cap{
     text-decoration: none;
     color: #ededed;
-    font-size: 1.5rem;
+    font-size: 1.5vmax;
     font-weight: 500;
     margin-top: .7rem;
     align-items: center;
@@ -386,7 +387,7 @@ height: 5rem;
 }
 .skill-one a:hover .cap::after{
     content: attr(data-hover);
-    font-size: 1.5rem;
+    font-size: 1.5vmax;
     font-weight: 500;
     color:rgb(236, 178, 69);
 }
@@ -459,8 +460,8 @@ height: 5rem;
     /* color: #17181c; */
 }
 .project-image img{
-    height: 10rem;
-    width: 18rem;
+    height: 22vmax;
+    width: 30vmax;
     border-radius: 1rem;
     transition: 1s;
 }
