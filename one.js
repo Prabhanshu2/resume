@@ -44,6 +44,7 @@ function moreless() {
     }
     else {
         hideme.style.display = "flex";
+        hideme.style.fontSize="1.6rem";
         btuns.innerHTML = "Read Less";
     }
 }
